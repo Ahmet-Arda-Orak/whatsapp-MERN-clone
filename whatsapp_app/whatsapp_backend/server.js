@@ -28,7 +28,7 @@ app.use(cors());
 // })
 
 //DB connection
-const connection_url="mongodb+srv://admin:fMr3PR3zf47jHUX@cluster0.vd1wo.mongodb.net/whatsappdb?retryWrites=true&w=majority"
+const connection_url="YOUR CLUSTER URL"
 mongoose.connect(connection_url,{
     useNewUrlParser: true,
     useUnifiedTopology: true,
